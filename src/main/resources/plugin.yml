@@ -1,0 +1,20 @@
+name: Timer
+version: '1.0.0'
+main: de.scholle.timer.Timer
+api-version: '1.18'
+prefix: Timer
+load: STARTUP
+authors: [Mobilestars]
+description: Timer mit ActionBar, Farbgradienten und Commands
+website: https://modrinth.com/project/timerp
+
+commands:
+  timer:
+    description: Hauptcommand für Timer
+    usage: /<command> <reload|colour|set|add|start|restart|pause|stop|goal>
+    permission: Timer.op
+
+permissions:
+  Timer.op:
+    description: Erlaubt Zugriff auf alle Timer Commands
+    default: op

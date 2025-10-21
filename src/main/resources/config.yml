@@ -1,0 +1,6 @@
+# Basisfarbe des Timers (Minecraft Color Code)
+base-color: "&a"
+
+# Automatisches Beenden aktivieren/deaktivieren(nach erreichen des Advancements)
+auto-complete-timer: true
+default-advancement: "minecraft:story/mine_diamond" # Default Advancement für Automation
